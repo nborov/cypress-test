@@ -1,0 +1,25 @@
+{
+  "name": "cypress-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "cypress:open": "cypress open",
+    "test": "start-server-and-test serve http://localhost:8081 cypress:open"
+  },
+  "dependencies": {
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.0",
+    "cypress": "^13.6.2",
+    "start-server-and-test": "^2.0.3"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
